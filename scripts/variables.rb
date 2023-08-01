@@ -3,7 +3,7 @@ lastName = "Smith"
 age = 12
 
 puts "My name is " + firstName + " " + lastName
-puts "I am " + age.inspect + " years old"
+puts "I am " + age.to_s + " years old"
 
 firstName = "Frank"
 
